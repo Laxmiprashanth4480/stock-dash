@@ -1,0 +1,75 @@
+.contact-background {
+  background-image: url("https://i.pinimg.com/736x/17/32/5e/17325e0da2d50d2f05123b0f31b2a4c9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Segoe UI", sans-serif;
+  width: 310%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-card {
+  background-color: black;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 40%;
+}
+
+.contact-input,
+.contact-textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: border 0.2s ease;
+  background-color: white;
+  color: blue;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}

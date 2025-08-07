@@ -1,0 +1,72 @@
+.login-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #3d77ec, #dd3b84);
+  padding: 0;
+  margin: 0;
+}
+.login-card {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+  background-image: url("https://i.pinimg.com/736x/f9/72/46/f97246ee37ec2482753e83ec5b629fc5.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 58vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+  position: relative;
+}
+
+.overlay-text h4 {
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  background-color: rgb(199, 9, 9);
+}
+
+.form-side {
+  background-color: #fff;
+}
+
+.form-control {
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+}
+
+.form-control::placeholder {
+  color: #666;
+}
+
+.btn-danger {
+  font-weight: bold;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .left-side {
+    display: none;
+  }
+
+  .login-card {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,55 @@
+.global-indices-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.index-card {
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.index-card:hover {
+  transform: translateY(-5px);
+}
+
+.green-border {
+  border-color: #28a745;
+}
+
+.red-border {
+  border-color: #dc3545;
+}
+
+.index-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.index-value {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.index-change {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.green-text {
+  color: #28a745;
+}
+
+.red-text {
+  color: #dc3545;
+}
